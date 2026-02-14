@@ -1,18 +1,34 @@
-# Salesforce DX Project: Next Steps
+# BarberForce 💈
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Sistema de gerenciamento para barbearias desenvolvido na plataforma Salesforce.
 
-## How Do You Plan to Deploy Your Changes?
+## 📋 Sobre o Projeto
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+BarberForce é uma solução completa para gestão de barbearias construída utilizando Salesforce DX. O sistema oferece ferramentas modernas para administração de agendamentos, clientes, serviços e muito mais.
 
-## Configure Your Salesforce DX Project
+## 🚀 Tecnologias
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- **Salesforce DX** - Plataforma de desenvolvimento
+- **Apex** - Linguagem de programação
+- **Lightning Web Components (LWC)** - Componentes front-end
+- **Node.js** - Ferramentas de desenvolvimento
+- **Jest** - Testes automatizados
+- **ESLint** - Análise de código
+- **Prettier** - Formatação de código
+- **Husky** - Git hooks
 
-## Read All About It
+## 🛠️ Configuração do Ambiente
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+### Pré-requisitos
+
+- Node.js (versão 18 ou superior)
+- Salesforce CLI
+- Visual Studio Code com extensões Salesforce
+- Git
+
+### Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/victorbrandaao/BarberForce.git
+cd BarberForce
